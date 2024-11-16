@@ -66,3 +66,23 @@ transition-duration: .1s; */
     z-index: -2;
 }
 
+#services-content{
+    display: grid;
+    grid-template-columns: 20% 20% ;
+    column-gap: 400px;
+  
+
+    
+    
+}
+
+#nafsi{
+    color: aqua;
+    transform: rotate(-90deg) , translate(100px, -100px);
+    
+    /* transform: ; */
+    font-size: 200px;
+    
+    margin-left: 700px;
+    
+}
