@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+:root{
+    /* FONTFAMILY */
+    --FONT-FAMILY: 'Courier New', Courier, monospace;
+    /* BACKGROUND */
+    --BACK-GROUND: #FFF;
+    /* HEADER BACKGROUND */
+    --HEADER-BACKGROUND: black;
+    /* STYLING LINKS */
+   --REMOVE-LINK-UNDERLINE: none;
+   /* hover effect */
+   --HOVER-BLUE: AQUA;
+}
+
+body{
+    font-family: var(--FONT-FAMILY);
+    font-size: 2em;
+    font-weight: bold;
+     
+}
+
+header {
+background-color: var(--HEADER-BACKGROUND);
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* row-gap: 100px; */
+    /* transform: translateX(900px); */
+ 
+}
+
+nav a {
+    text-decoration: var(--REMOVE-LINK-UNDERLINE);
+    color: var(--BACK-GROUND);
+    
+
+}
+
+nav a:hover{
+color: var(--HOVER-BLUE);
+/* transition-behavior: ease-in-out;
+transition-duration: .1s; */
+
+}
+.services h3{
+    color: #FFF;
+    transform: translateY(100px);
+}
+.services video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transform: translateY(-40px);
+    position: relative;
+    z-index: -2;
+}
+
+#services-content{
+    display: grid;
+    grid-template-columns: 20% 20% ;
+    column-gap: 400px;
+  
+
+    
+    
+}
+
+#nafsi{
+    color: aqua;
+    transform: rotate(-90deg) , translate(100px, -100px);
+    
+    /* transform: ; */
+    font-size: 200px;
+    
+    margin-left: 700px;
+    
+}
